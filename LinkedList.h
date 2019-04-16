@@ -1,21 +1,21 @@
-//
-// Created by ruben on 4/5/19.
-//
-
-#ifndef LINKEDLISTVSBINARYTREE_LINKEDLIST_H
-#define LINKEDLISTVSBINARYTREE_LINKEDLIST_H
 #include "Location.h"
+
+
+#ifndef LINKED_LIST_LINKEDLIST_H
+#define LINKED_LIST_LINKEDLIST_H
 
 namespace UTEC {
 
-    struct Node {
-        Location data;
-        Node* next;
+    struct Node{
+        Location *data;
+        Node *next;
+
+        explicit Node (Location *data);
     };
 
     class LinkedList {
-        Node* head;
-        Node* tail;
+        Node *head = nullptr;
+        Node *tail = nullptr;
     public:
         LinkedList();
         ~LinkedList();
@@ -23,13 +23,17 @@ namespace UTEC {
         bool is_empty();
         Node* get_head();
         Node* get_tail();
-        void add_head(const Location& data);
-        void add_tail(const Location& data);
+        void add_head(Location *data);
+        void add_tail(Location *data);
         void print();
-        void insert(Node* position, const Location& data);
-        Node* search(std::string position_id);
+        void insert(int position, Location *data);
+        Node *search(int position_id);
+
     };
-    void load_locations(LinkedList* linked_list, std::string file_name);
+
+    void load_locations_link(LinkedList *linkedList, std::string file_name);
+
 }
 
-#endif //LINKEDLISTVSBINARYTREE_LINKEDLIST_H
+
+#endif //LINKED_LIST_LINKEDLIST_H

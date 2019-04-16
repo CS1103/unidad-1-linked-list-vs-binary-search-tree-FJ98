@@ -4,7 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LinkedListVsBinaryTree.dir/BinarySearchTree.cpp.o"
   "CMakeFiles/LinkedListVsBinaryTree.dir/Location.cpp.o"
   "LinkedListVsBinaryTree.pdb"
-  "LinkedListVsBinaryTree"
+  "LinkedListVsBinaryTree.exe"
+  "libLinkedListVsBinaryTree.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

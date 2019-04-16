@@ -1,7 +1,4 @@
-//
 // Created by ruben on 4/5/19.
-//
-
 #ifndef LINKEDLISTVSBINARYTREE_LOCATION_H
 #define LINKEDLISTVSBINARYTREE_LOCATION_H
 #include <string>
@@ -25,9 +22,11 @@ public:
             std::string construction);
 
     // Declare los metodos que crea necesario
-
+    void imprimir();
+    int get_id();
+    Location();
     // Cree que sea necesario agregar destructor, justifique
-
+    // Si destruyo Nodo tambien se destruiria Location? De ser asi no seria necesario pero si no es asi si seria necesario.
 };
 
 

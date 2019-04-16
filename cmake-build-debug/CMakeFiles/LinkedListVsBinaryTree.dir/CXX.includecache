@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/BinarySearchTree.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/Location.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/LinkedList.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/Location.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/Location.h
 string
 -
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp
-iostream
--
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/main.cpp
 sstream
 -
 string
+-
+iostream
 -
 vector
 -
 fstream
 -
 LinkedList.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/LinkedList.h
 BinarySearchTree.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+/cygdrive/c/Users/felix/CLionProjects/unidad-1-linked-list-vs-binary-search-tree-FJ98/BinarySearchTree.h
 
